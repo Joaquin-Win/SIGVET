@@ -1,5 +1,10 @@
-# Maven
-target/
+# Maven (solo artefactos intermedios, NO los JAR finales)
+target/classes/
+target/test-classes/
+target/generated-sources/
+target/maven-archiver/
+target/maven-status/
+target/archive-tmp/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
